@@ -22,4 +22,8 @@ public class AddressBook {
 	public boolean removeBuddy(BuddyInfo b){
 		return Buddies.remove(b);
 	}
+	
+	public static void main(String args[]){
+		System.out.println("AddressBook");
+	}
 }
