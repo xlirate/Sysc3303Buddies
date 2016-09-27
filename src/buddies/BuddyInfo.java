@@ -43,7 +43,7 @@ public class BuddyInfo {
 			return false;
 		}
 		
-		if(o.getClass().equals(this.getClass())){
+		if(o instanceof BuddyInfo){
 			BuddyInfo b = (BuddyInfo)o;
 			return Objects.equals(this.getName(), b.getName()) && 
 					Objects.equals(this.getAddress(), b.getAddress()) && 
