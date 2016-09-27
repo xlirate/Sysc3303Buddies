@@ -25,7 +25,7 @@ public class AddressBook {
 	
 	public static void main(String args[]){
 		System.out.println("AddressBook");
-		System.out.println("Eddited on GitHub");
+		System.out.println("Edited on GitHub");
 		AddressBook ab = new AddressBook();
 		BuddyInfo buddy = new BuddyInfo("Bob",null,"123");
 		ab.addBuddy(buddy);
